@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Jogo da velha</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="jquery-2.2.1.js"></script>
+		<script src="js/myJavascript.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="wrap inicio">
+			
+			<h1>Jogo da Velha</h1>
+			
+			<div class="row">
+				<div class="col-4">
+					<img src="imagens/jogador_1.png">
+					<input id="jogador_1" type="text" maxlength="10" placeholder="Apelido jogador 1" />
+				</div><!--
+				--><div class="col-4">
+					<img id="btn-start" class="btn-play" src="imagens/iniciar.png">
+				</div><!--
+				--><div class="col-4">
+					<img src="imagens/jogador_2.png">
+					<input id="jogador_2" type="text" maxlength="10" placeholder="Apelido jogador 2" />
+				</div>
+			</div>
+
+		</div>
+
+		<div class="wrap game hide">
+			
+			<h1>Jogo da Velha</h1>
+
+			<div class="player-one">
+					<img src="imagens/jogador_1.png">
+					<span id="nome_1"></span>
+				</div><!--
+				--><div class="player-two">
+					<img src="imagens/jogador_2.png">
+					<span id="nome_2"></span>
+				</div>
+			
+				<!--GRID JOGO DA VELHA-->
+			<div class="row">
+				<div id="a-1" class="col-4 col-top"></div><!--
+				--><div id="a-2" class="col-4 col-top"></div><!--
+				--><div id="a-3" class="col-4 col-top"></div>
+			</div>
+
+			<div class="row">
+					<div id="b-1" class="col-4 col-top"></div><!--
+					--><div id="b-2" class="col-4 col-top"></div><!--
+					--><div id="b-3" class="col-4 col-top"></div>
+				</div>
+
+			<div class="row">
+					<div id="c-1" class="col-4 col-bottom"></div><!--
+					--><div id="c-2" class="col-4 col-bottom"></div><!--
+					--><div id="c-3" class="col-4 col-bottom"></div>
+				</div>
+
+				<button class="btn-back" type="button">Voltar</button>
+				<button class="btn-reset" type="button">Reset</button>
+		</div>
+		
+	</body>
+</html>

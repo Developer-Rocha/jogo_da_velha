@@ -1,0 +1,84 @@
+.wrap{
+    width: 600px;
+    position: absolute;
+    text-align: center;
+    border: 1px solid #6c6c6c;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.row{
+    display: block;
+    width: 600px;
+}
+
+.col-4{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.game .col-4{
+    width: 198px;
+    height: 200px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.game .col-top:not(:last-child){
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+.game .col-top:last-child{
+    border-bottom: 1px solid blue;
+}
+
+.game .col-bottom:not(:last-child){
+    border-right: 1px solid blue;
+}
+
+.hide{
+    display: none;
+}
+
+.btn-play{
+    cursor: pointer;
+}
+
+.player-one{
+    display: inline-block;
+    width: 150px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+.player-two{
+    display: inline-block;
+    width: 150px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.btn-back, .btn-reset{
+    padding: 15px;
+    background-color: #828282;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+input{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+h1{
+    text-transform: uppercase;
+}
